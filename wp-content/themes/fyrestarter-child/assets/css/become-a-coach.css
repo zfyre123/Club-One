@@ -1,0 +1,194 @@
+main {
+  overflow: hidden;
+}
+
+
+
+#page-header.alt-header {
+  overflow: visible;
+  padding: 300px 0 240px;
+  margin-bottom: 60px;
+}
+#fyre .large-training-txt {
+    font-style: normal;
+    font-weight: 100;
+    line-height: 1;
+    color: #F0AD1C;
+    mix-blend-mode: multiply;
+    opacity: 0.5;
+    position: absolute;
+    top: 50%;
+    transform: translateY(calc(-50% + 60px));
+    z-index: 1;
+    font-size: 485.161px;
+    left: -60px;
+    white-space: nowrap;
+}
+
+
+.info-row img {
+    box-shadow: 0px 0px 21.2313px rgba(0, 0, 0, 0.15);
+    border-radius: 21.2313px;
+}
+
+.training-top-curve {
+    position: absolute;
+    bottom: -1px;
+    z-index: 0;
+    width: 100%;
+    overflow: hidden;
+    min-width: 2600px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#become-a-coach {
+    overflow: visible;
+    z-index: 1;
+}
+.coaches {
+    position: absolute;
+    bottom: -100px;
+    right: -100%;
+    transform: translateX(-100%);
+}
+
+
+
+#gform_confirmation_message_2 {
+    text-align: center;
+    font-size: 18px;
+}
+#apply .gform_body .ginput_container_text input, 
+#apply .gform_body .ginput_container_phone input,
+#apply .gform_body .ginput_container_email input,
+#apply .gform_body .ginput_container_number input,
+#apply .gform_body .top_label select, 
+#apply .gform_body .top_label textarea {
+    width: 100% !important;
+    border: 2px solid #D1D4D4;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #0D293B;
+    padding: 15px 20px !important;
+}
+#apply .gform_body .ginput_container_text input:focus, 
+#apply .gform_body .ginput_container_phone input:focus,
+#apply .gform_body .ginput_container_email input:focus,
+#apply .gform_body .ginput_container_number input:focus,
+#apply .gform_body .top_label textarea:focus {
+    border: 2px solid #F0AD1C;
+}
+#apply .gform_body ul li.gfield {
+    padding: 0 10px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+#gform_fields_2 {
+    margin: 0 -10px !important;
+}
+@media (min-width: 576px) {
+  .half-field {
+      width: 50%;
+      display: inline-block;
+  }
+}
+#fyre #gform_submit_button_2 {
+    margin-right: auto;
+    font-weight: 700;
+    font-style: normal;
+    padding: 18px 58px !important;
+    color: #fff;
+    border-radius: 8px;
+    display: block;
+    width: auto !important;
+    margin-left: auto;
+    background-color: #a61421;
+    border: none;
+}
+.ginput_container.ginput_container_number .instruction {
+    display: none;
+}
+.gfield_checkbox {
+  display: flex;
+  justify-content: normal;
+}
+.gfield_checkbox li {
+  margin-right: 30px !important;
+}
+#field_2_21 {
+  display: none;
+}
+.google-disclaimer {
+  font-size: 12px;
+  text-align: center;
+}
+.gform_footer.top_label {
+  margin-top: 0 !important;
+}
+
+@media (max-width: 1199px) {
+  .coaches {
+      position: relative;
+      bottom: -81px;
+  }
+  #fyre .large-training-txt {
+      font-size: 304.516px;
+      transform: translateY(calc(-50% + 50px));
+      line-height: 474px;
+      left: auto;
+  }
+}
+@media (max-width: 991px) {
+  .coaches {
+      position: relative;
+      bottom: -61px;
+  }
+  #page-header.alt-header {
+      overflow: visible;
+      padding: 260px 0 220px;
+  }  
+  #fyre .large-training-txt {
+      transform: translateY(calc(-50% + 0px));
+      font-size: 266.299px;
+      left: -40px;
+  }
+}
+@media (max-width: 767px) {
+  #fyre .large-training-txt {
+      transform: translateY(calc(-50% + 40px)) translateX(-50%);
+      left: 50%;
+  }
+  #apply .gform_body ul li.gfield {
+      margin-bottom: 20px;
+  }
+  #apply .gform_body .ginput_container_text input, 
+  #apply .gform_body .ginput_container_phone input, 
+  #apply .gform_body .ginput_container_email input, 
+  #apply .gform_body .ginput_container_number input, 
+  #apply .gform_body .top_label select, 
+  #apply .gform_body .top_label textarea {
+      padding: 10px 15px !important;
+  }
+}
+@media (max-width: 575px) {
+  #fyre .large-training-txt {
+      font-size: 153.847px;
+  }
+  #page-header.alt-header {
+      padding: 180px 0 170px;
+  }
+  #page-header.alt-header h1 {
+      max-width: 300px;
+  }
+  .gfield_checkbox {
+      display: block;
+  }
+  #become-a-coach h2 {
+      max-width: 300px;
+  }
+}
+
+
+
+

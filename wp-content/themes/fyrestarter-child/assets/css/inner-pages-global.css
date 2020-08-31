@@ -1,0 +1,516 @@
+/* global styles */
+
+.rounded-shadow {
+	box-shadow: 0px 0px 21.2274px rgba(0, 0, 0, 0.15);
+	border-radius: 21.2274px;
+}
+
+.desk-curve,
+.mid-curve,
+.mobile-curve {
+    display: none;
+    pointer-events: none;
+}
+@media(min-width: 1200px) {
+    .desk-curve {
+        display: block;
+    }
+}
+@media(max-width: 991px) {
+    .tribe-events .tribe-events-l-container {
+        min-height: auto !important;
+    }
+}
+@media(min-width: 576px) and (max-width: 1199px) { 
+    .mid-curve {
+        display: block;
+        min-width: 1199px;
+    }
+}
+@media(max-width: 575px) { 
+    .mobile-curve {
+        display: block;
+        min-width: 575px;
+    }
+}
+
+.vb-player, 
+.coaches {
+	pointer-events: none;
+}
+#fyre .large-training-txt {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Old versions of Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+	user-select: none;
+}
+
+/* #split-section */
+
+.split-section-content {
+  max-width: 400px;
+  margin: auto;
+}
+.split-section-content .btn {
+  margin: 0;
+}
+.split-section-col {
+  padding: 120px 120px;
+}
+
+@media(max-width: 1199px) {
+    .split-section-col {
+        padding: 100px 60px;
+    }
+}
+
+@media(max-width: 767px) {
+    .split-section-col {
+        padding: 80px 30px;
+    }
+}
+
+/* join a program partial */
+
+
+#join-a-program {
+  padding: 295px 0 265px;
+}
+#join-a-program img {
+    max-width: 445px;
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+}
+#join-a-program .rounded-shadow {
+  	padding: 110px 0;
+    overflow: hidden;
+}
+#join-a-program .rounded-shadow img, 
+#join-a-program .rounded-shadow .middle-content {
+    z-index: 1;
+}
+.join-program-we-are-one {
+    z-index: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(100% - 120px);
+}
+
+@media(max-width: 1199px) {
+    #join-a-program {
+        padding: 175px 0 165px;
+    }
+    #join-a-program .middle-content {
+      padding-left: 65px;
+      max-width: 485px;
+    }
+    #join-a-program img {
+        max-width: 385px;
+    }
+    #join-a-program .rounded-shadow {
+        padding: 85px 0;
+    }
+}
+@media(max-width: 991px) {
+    #join-a-program {
+        padding: 60px 0;
+    }
+    #join-a-program img {
+        max-width: 370px;
+        position: relative;
+        bottom: -66px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #join-a-program .middle-content {
+      padding-left: 0;
+      max-width: 100%;
+    }
+    #join-a-program .rounded-shadow {
+        padding: 65px 35px;
+    }
+    .join-program-we-are-one {
+        height: calc(100% - 200px);
+        top: calc(50% - 60px);
+        width: auto;
+    }
+}
+
+/* instagram */
+
+
+
+.view-grams h2 {
+    margin-bottom: 0;
+    margin-right: 40px;
+}
+.view-grams .line-btn {
+    top: 5px;
+}
+#latest-grams {
+    padding-bottom: 35px;
+    padding-top: 10px;
+}
+.single-teams #latest-grams {
+    padding-top: 10px;
+}
+.instagram_gallery {
+    display: flex;
+    width: calc(100% + 25%);
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+}
+.instagram_gallery a {
+    margin: 0 13.5px;
+    border-radius: 21.23px;
+    overflow: hidden;
+    transform: none !important;
+    width: 20%;
+}
+.instagram_gallery img {
+    width: 100% !important;
+}
+#latest-grams .ylw-txt.viva {
+    font-size: 50px;
+}
+@media(max-width: 1199px) {
+    .instagram_gallery a {
+        min-width: 33% !important;
+    }
+}
+
+@media(max-width: 767px) {
+    .instagram_gallery {
+        width: 100%;
+        flex-wrap: wrap;
+        padding: 0 10px;
+    }
+    .instagram_gallery a {
+        width: calc(50% - 16px) !important;
+        margin: 8px 8px;
+    }
+    .instagram_gallery a:nth-child(3) {
+        width: 100% !important;
+        max-height: 340px;
+    }
+    .instagram_gallery a:nth-child(4), 
+    .instagram_gallery a:nth-child(5) {
+        display: none;
+    }
+    .instagram_gallery a:nth-child(3) img {
+        top: -50%;
+        position: relative;
+    }
+    #latest-grams .hidden-md-up {
+        margin-top: 40px;
+    }
+    #latest-grams .justify-content-between {
+        justify-content: center !important;
+        text-align: center;
+    }
+    .view-grams h2 {
+        margin-right: 0;
+    }
+    #latest-grams {
+        padding-bottom: 80px;
+    }
+    .home #latest-grams {
+        padding-bottom: 60px;
+    }
+}
+
+@media(max-width: 575px) {
+    .instagram_gallery a:nth-child(3) {
+        max-height: 240px;
+    }
+}
+
+/* questions */
+
+#questions-accordion .btn {
+    text-align: left;
+    background: transparent;
+    padding: 30px 40px 30px 0;
+    transform: none;
+    color: #fff;
+    position: relative;
+    font-weight: 800;
+    font-size: 20px;
+    margin: 0;
+    white-space: normal;
+}
+#questions-accordion .btn::after {
+    content: '\f107';
+    font-family: 'Font Awesome\ 5 pro' !important;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    -webkit-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    font-size: 28px;
+    color: #fff;
+    letter-spacing: 0;
+    transform: translateY(-50%);
+    color: #f0ad1c;
+    font-weight: 100;
+}
+#questions-accordion .card {
+    padding: 0;
+    background: none;
+    border-radius: 0;
+    border-bottom: 1px solid #fff !important;
+    border: none;
+    color: #fff;
+}
+#questions-accordion .collapse p:last-child {
+    margin-bottom: 30px;
+}
+
+/* alumni/coaches */
+
+.head-shot {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.below-head-shot-info {
+    padding: 0 30px;
+}
+#alumni h4 {
+    margin-bottom: 0 !important;
+}
+.below-head-shot-info .wht-txt.small {
+    max-width: 427.5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media(max-width: 1199px) {
+    .head-shot {
+        width: 200px;
+        height: 200px;
+    }
+}
+@media(max-width: 991px) {
+    #alumni .col-lg-4 {
+        margin-bottom: 40px;
+    }
+    #alumni .col-lg-4:last-child {
+        margin-bottom: 0;
+    }
+}
+.head-shot-medium {
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+}
+.head-shot-small {
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* calendar */
+
+.events-box {
+    box-shadow: 0px 0px 21.2313px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    padding: 60px 30px;
+}
+.tribe-common-l-container.tribe-events-l-container {
+    padding: 0 !important;
+}
+
+
+/* facility partial */
+
+#map {
+    width: calc(100% + 45px) !important;
+    height: 100% !important;
+    left: -45px;
+    border-radius: 0 20px 20px 0;
+    box-shadow: 0px 0px 19.8566px rgba(0, 0, 0, 0.15);
+}
+.content-block {
+    height: 100%;
+    border-radius: 20px;
+    padding: 45px;
+    z-index: 1;
+    position: relative;
+    box-shadow: 0px 0px 19.8566px rgba(0, 0, 0, 0.15);
+}
+#facility .content-block p:last-child {
+    margin-bottom: 0;
+}
+@media(max-width: 991px) {
+    #map {
+        width: 100% !important;
+        height: 280px !important;
+        left: auto;
+        border-radius: 20px 20px 0 0;
+        top: 30px;
+    }
+}
+
+/* meet coaches partial */
+
+
+#home-coaches {
+    padding-top: 150px;
+}
+
+.coach-img {
+    height: 240px;
+    width: 25%;
+}
+.meet-coaches {
+    margin-top: -45px;
+}
+.meet-coaches-imgs {
+    border-radius: 20px;
+    overflow: hidden;
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    box-shadow: 0px 0px 21.2313px rgba(0, 0, 0, 0.15);
+}
+#home-coaches .content-block {
+    box-shadow: 0px 0px 21.2313px rgba(0, 0, 0, 0.15);      
+}
+
+@media(max-width: 1199px) {
+    .coach-img {
+        height: 200px;
+    }
+}
+@media(max-width: 991px) {
+    .coach-img:nth-child(2n) {
+        display: none;
+    }
+    .coach-img {
+        width: 50%;
+    }
+}
+
+/* breadcrumbs */
+
+.breadcrumbs {
+    padding: 25px 0 45px;
+    color: #2E5785;
+}
+.breadcrumbs a {
+    color: #2E5785;
+}
+.breadcrumb_last {
+    color: #A61421;
+}
+
+@media(max-width: 767px) {
+    .breadcrumbs {
+        padding: 25px 0 25px;
+    }
+}
+
+/* banner */
+
+#we-are-one-banner {
+    margin: 100px 0;
+    padding: 200px 0;
+    text-align: center;
+}
+@media(max-width: 991px) {
+    #we-are-one-banner {
+        padding: 100px 0;
+        margin: 80px 0;
+    }
+}
+@media(max-width: 767px) {
+    #we-are-one-banner {
+        margin: 30px 0;
+    }
+}
+
+
+/* gravity */
+
+
+.gform_confirmation_message {
+    text-align: center;
+    font-size: 18px;
+}
+.gform_body .ginput_container_text input, 
+.gform_body .ginput_container_phone input,
+.gform_body .ginput_container_email input,
+.gform_body .ginput_container_number input,
+.gform_body .top_label select, 
+.gform_body .top_label textarea {
+    width: 100% !important;
+    border: 2px solid #D1D4D4;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #0D293B;
+    padding: 15px 20px !important;
+}
+.gform_body .ginput_container_text input:focus, 
+.gform_body .ginput_container_phone input:focus,
+.gform_body .ginput_container_email input:focus,
+.gform_body .ginput_container_number input:focus,
+.gform_body .top_label textarea:focus {
+    border: 2px solid #F0AD1C;
+}
+.gform_body ul li.gfield {
+    padding: 0 10px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.gform_fields {
+    margin: 0 -10px !important;
+}
+@media (min-width: 576px) {
+  .half-field {
+      width: 50%;
+      display: inline-block;
+  }
+}
+#fyre main .gform_button {
+    margin-right: auto;
+    font-weight: 700;
+    font-style: normal;
+    padding: 18px 58px !important;
+    color: #fff;
+    border-radius: 8px;
+    display: block;
+    width: auto !important;
+    margin-left: auto;
+    background-color: #a61421;
+    border: none;
+}
+.ginput_container.ginput_container_number .instruction {
+    display: none;
+}
+.gfield_checkbox {
+  display: flex;
+  justify-content: normal;
+}
+.gfield_checkbox li {
+  margin-right: 30px !important;
+}
+
+.google-disclaimer {
+  font-size: 12px;
+  text-align: center;
+}
+.gform_footer.top_label {
+  margin-top: 0 !important;
+}
+

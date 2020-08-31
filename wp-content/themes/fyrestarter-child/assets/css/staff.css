@@ -1,0 +1,132 @@
+.modal-dialog-centered {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: calc(100% - (.5rem * 2));
+    max-width: 900px;
+}
+#myModal-story .modal-content {
+    border: none;
+    overflow: hidden;
+    width: 100%;
+    min-height: 300px;
+}
+button#close-story {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+  background: 0 0;
+  line-height: 1;
+  border-radius: 0;
+  padding: 20px !important;
+  border: none;
+  font-size: 32px;
+  color: #0D293B;
+  letter-spacing: 0.73px;
+}
+button#close-story i {
+    margin: 0 !important;
+}
+#myModal-story .modal-body {
+    padding: 80px 160px;
+    overflow: hidden;
+}
+.modal-btn {
+    margin-top: 40px;
+}
+.modal-btn .btn {
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,0.18);
+}
+
+.staff-contained {
+  padding: 100px 0;
+}
+.staff-contained .sec-header {
+  padding-left: 100px;
+  margin-bottom: 0;
+}
+.staff-contained .sec-header h2 {
+  margin-bottom: 0;
+}
+/*.staff-contained .row-eq-height {
+  padding: 0 60px;
+}*/
+.teams-coach, .teams-alumni {
+  margin-top: 80px;
+}
+.teams-coach p, .teams-alumni p:last-child {
+  margin-bottom: 0;
+}
+.staff-nav span {
+    margin: 0 10px;
+}
+.below-head-shot-info {
+    padding: 0 30px;
+}
+.staff-nav a,
+.staff-nav span {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #2E5785;
+}
+.staff-nav {
+    margin-top: 40px;
+}
+.teams-coach h4, .teams-alumni h4 {
+  margin-bottom: 0 !important;
+}
+#in-door-staff p {
+    color: #fff !important;
+}
+.head-shot {
+    background: transparent;
+}
+@media (max-width: 1199px) {
+  #myModal-story .modal-body {
+      padding: 60px 120px 80px;
+  }
+}
+@media (max-width: 991px) {
+  .staff-contained .sec-header {
+      padding-left: 15px;
+      text-align: center;
+      max-width: calc(100% - 45px);
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .staff-contained {
+      padding: 80px 0;
+  }
+  #myModal-story .modal-body {
+      padding: 40px 60px 50px;
+  }
+}
+@media (max-width: 767px) {
+  #myModal-story .modal-body {
+      padding: 40px;
+  }
+  .staff-nav a, .staff-nav span {
+    font-size: 20px;
+  }
+  .teams-coach, .teams-alumni {
+    margin-top: 40px;
+  }
+  .staff-contained {
+      padding: 60px 0;
+  }
+}
+@media (max-width: 575px) {
+  .staff-nav {
+    justify-content: center !important;
+    flex-direction: column;
+  }
+  .staff-nav span {
+    transform: rotate(90deg);
+  }
+}

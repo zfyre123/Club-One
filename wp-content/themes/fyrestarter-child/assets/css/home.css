@@ -1,0 +1,674 @@
+/* HOME CSS */
+
+	main {
+		overflow: hidden;
+	}
+	.home-top-curve {
+	    position: absolute;
+	    bottom: -1px;
+	    z-index: 2;
+	    width: 100%;
+	    overflow: hidden;
+	    min-width: 2600px;
+	    left: 50%;
+	    transform: translate(-50%, 0);
+	}
+	.home-top-we-are-one {
+	    z-index: 0;
+	    position: absolute;
+	    top: 50%;
+	    left: 50%;
+	    transform: translate(-50%, calc(-50% - 150px));
+	}
+	#home-top .container .row {
+	    z-index: 1;
+	    position: relative;
+	}
+	.home-top-content {
+	    padding-top: 120px;
+	    margin-left: -40px;
+	    padding-right: 60px;
+	}
+	#home-top h1 {
+	    font-style: normal;
+	    font-weight: 800;
+	    margin-bottom: 20px;
+	    font-size: 66px;
+	    line-height: 97%;
+	    color: #0D293B;
+	}
+	#home-top {
+		padding-top: 100px;
+	}
+	.vb-player {
+	    right: 30px;
+	    position: relative;
+	}
+
+	#fyre .large-training-txt {
+	    font-style: normal;
+	    font-weight: 100;
+	    line-height: 1;
+	    color: #F0AD1C;
+	    mix-blend-mode: multiply;
+	    opacity: 0.5;
+	    position: absolute;
+	    top: 50%;
+	    transform: translateY(calc(-50% - 60px));
+	    z-index: 0;
+	    font-size: 485.161px;
+	    left: -60px;
+	    white-space: nowrap;
+	}
+
+	#home-top-info-contained {
+	    z-index: 2;
+	    overflow: visible;
+	    padding: 0;
+	}
+	#home-top-info {
+	    position: absolute;
+	    z-index: 3;
+	    left: 50%;
+	    transform: translateX(-50%);
+	    bottom: 100px;
+	}
+	.offerings {
+	    background: #FFFFFF;
+	    box-shadow: 0px 0px 21.2313px rgba(0, 0, 0, 0.15);
+	    border-radius: 21.2313px;
+	    display: flex;
+	    padding: 30px 50px;
+	}
+	.offerings-left {
+	    display: flex;
+	    justify-content: center;
+	    flex-direction: column;
+	}
+	.offerings-left {
+	    border-right: 1px solid #D1D4D4;
+	    width: 45%;
+	    padding-right: 60px;
+	}
+	.offerings-right {
+	    width: 55%;
+	    padding: 0 60px 0 90px;
+	}
+	.offerings-right img {
+	    height: 90px;
+		transform: none;
+	}
+	.offerings-col-inner a {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+	.offerings-col-inner {
+		position: relative;
+	}
+	.offerings-col-inner {
+		transition: all .3s ease;
+		-webkit-transition: all .3s ease;
+		-moz-transition: all .3s ease;
+		-o-transition: all .3s ease;
+	}
+	.offerings-col-inner:hover{ 
+		transform:scale(1.05);
+		-moz-transform:scale(1.05);
+		-webkit-transform:scale(1.05);
+		-o-transform:scale(1.05);
+	}
+	.offerings-right h3 {
+	    margin-top: 10px;
+	    margin-bottom: 0;
+	    text-transform: uppercase;
+	    font-size: 20px !important;
+	}
+	.offerings-left p {
+	    font-size: 16px;
+	    line-height: 181.3%;
+	    margin: 0;
+	}
+
+
+	.home-trait-img {
+	  position: relative;
+	  border-radius: 50%;
+	  width: 300px;
+	  height: 300px;
+	  display: block;
+	  margin: auto;
+	  overflow: hidden;
+	}
+	.home-trait-img:before {
+	  content: '';
+	  background-color: #2F5785;
+	  position: absolute;
+	  top: 0;
+	  bottom: 0;
+	  left: 0;
+	  right: 0;
+	  opacity: .8;
+	}
+	.home-trait {
+	    position: relative;
+	}
+	#fyre .home-trait-inner h3 {
+	    font-weight: 100;
+	    font-size: 120px;
+	    position: absolute;
+	}
+	.home-trait-inner {
+	    position: relative;
+	}
+	.grow-trait h3 {
+	    top: 80px;
+	    left: -30px;
+	}
+	.learn-trait h3 {
+	    bottom: 0;
+	    left: -20px;
+	}
+	.serve-trait h3 {
+	    top: 34px;
+	    right: -20px;
+	}
+	.compete-trait h3 {
+	    bottom: 0;
+	    right: -20px;
+	}
+	.grow-trait {
+		top: -220px;
+	}
+	.learn-trait {
+		top: 100px;
+		left: 45px;
+	}
+	.serve-trait {
+		top: -50px;
+		left: 30px;
+	}
+	.compete-trait {
+		top: 80px;
+	}
+	.home-traits {
+	    margin-top: 100px;
+	}
+	#home-intro {
+	    overflow: visible;
+	}
+
+
+/*	#home-facility .content-block {
+	    height: 100%;
+	    border-radius: 20px;
+	    padding: 45px;
+	    z-index: 1;
+	    position: relative;
+	}*/
+	#meet-coaches {
+	    padding-top: 150px;
+	}
+
+	.coach-img {
+	    height: 240px;
+	    width: 25%;
+	}
+	.meet-coaches {
+	    margin-top: -45px;
+	}
+	.meet-coaches-imgs {
+	    border-radius: 20px;
+	    overflow: hidden;
+	    flex-wrap: wrap;
+	    width: 100%;
+	    display: flex;
+	    box-shadow: 0px 0px 21.2313px rgba(0, 0, 0, 0.15);
+	}
+	#meet-coaches .content-block {
+	    box-shadow: 0px 0px 21.2313px rgba(0, 0, 0, 0.15);		
+	}
+
+	.no-events {
+		text-align: center;
+		width: 100%;
+	}
+	.event {
+	    padding: 15px;
+	    box-shadow: 0px 0px 21.2313px rgba(0, 0, 0, 0.15);
+	    border-radius: 21.2313px;
+	    margin-bottom: 30px;
+	    position: relative;
+		overflow: hidden;
+	    transition: all 0.3s ease;
+	    -webkit-transition: all 0.3s ease;
+	    -moz-transition: all 0.3s ease;
+	    -o-transition: all 0.3s ease;
+	}
+	.event:hover {
+	    transform: translateY(-3px);
+	}
+	.event a {
+	    position: absolute;
+	    top: 0;
+	    bottom: 0;
+	    left: 0;
+	    right: 0;
+	}
+	.event-date {
+	    border-radius: 21.23px;
+	    background-color: #a61421;
+	    color: #fff;
+	    height: 76px;
+	    min-width: 76px;
+	    text-align: center;
+	    margin-right: 15px;
+	}
+	#home-events .flex-btn {
+	    margin-top: 20px;
+	}
+
+
+	.post-image {
+	    height: 100%;
+	    box-shadow: 0px 0px 21.2313px rgba(0, 0, 0, 0.15);
+	    border-radius: 21.2313px;
+	    min-height: 320px;
+	}
+	@media(min-width: 992px) {
+		.latest-post-content {
+		    padding-left: 45px;
+		}
+	}
+
+
+
+	#home-questions {
+	    overflow: visible;
+	    z-index: 2;
+	    margin: 100px 0;
+	}
+/*	.questions-image {
+	    width: calc(100% - 30px);
+	    height: calc(100% + 300px);
+	    position: absolute;
+	    top: 50%;
+	    transform: translateY(-50%);
+	    box-shadow: 0px 0px 19.8566px rgba(0, 0, 0, 0.15);
+	    border-radius: 19.8566px;
+	    left: -30px;
+	}*/
+	.questions-image {
+	    width: calc(100% - 30px);
+	    box-shadow: 0px 0px 19.8566px rgba(0, 0, 0, 0.15);
+	    border-radius: 19.8566px;
+	    height: 620px;
+	}
+	#questions-accordion .btn {
+	    text-align: left;
+	    background: transparent;
+	    padding: 30px 0;
+	    transform: none;
+	    color: #fff;
+	    position: relative;
+	    font-weight: 800;
+		font-size: 20px;
+	}
+	#questions-accordion .btn::after {
+	    content: '\f107';
+	    font-family: 'Font Awesome\ 5 pro' !important;
+	    position: absolute;
+	    right: 15px;
+	    top: 50%;
+	    -webkit-transition: all .3s ease-out;
+	    -o-transition: all .3s ease-out;
+	    transition: all .3s ease-out;
+	    font-size: 28px;
+	    color: #fff;
+	    letter-spacing: 0;
+	    transform: translateY(-50%);
+	    color: #f0ad1c;
+	    font-weight: 100;
+	}
+	#questions-accordion .card {
+	    padding: 0;
+	    background: none;
+	    border-radius: 0;
+	    border-bottom: 1px solid #fff !important;
+	    border: none;
+	    color: #fff;
+	}
+	#questions-accordion .collapse p:last-child {
+	    margin-bottom: 30px;
+	}
+
+
+
+	#latest-grams {
+		padding-bottom: 35px;
+	}
+	.instagram_gallery {
+	    display: flex;
+	    width: calc(100% + 25%);
+	    left: 50%;
+	    position: relative;
+	    transform: translateX(-50%);
+	}
+	.instagram_gallery a {
+	    margin: 0 13.5px;
+	    border-radius: 21.23px;
+	    overflow: hidden;
+	    transform: none !important;
+	}
+	.latest-post-content {
+		margin-top: 30px;
+	}
+	.view-grams h2 {
+	    margin-bottom: 0;
+	    margin-right: 40px;
+	}
+
+
+
+	#map {
+		width: calc(100% + 45px) !important;
+		height: 100% !important;
+		left: -45px;
+		border-radius: 0 20px 20px 0;
+		box-shadow: 0px 0px 19.8566px rgba(0, 0, 0, 0.15);
+	}
+	.content-block {
+	    height: 100%;
+	    border-radius: 20px;
+	    padding: 45px;
+	    z-index: 1;
+	    position: relative;
+	    box-shadow: 0px 0px 19.8566px rgba(0, 0, 0, 0.15);
+	}
+
+
+
+@media(max-width: 1199px) {
+	.home-top-content {
+	    padding-top: 50px;
+		max-width: 360px;
+		padding-right: 0;
+	}
+	#fyre .large-training-txt {
+	    transform: translateY(calc(-50% - 10px));
+	    font-size: 352.299px;
+	}
+	#home-top h1 {
+	    font-size: 40px;
+	    line-height: 96.8%;
+	}
+	.home-traits {
+	    margin-top: 160px;
+	}
+	#home-top {
+	    margin-bottom: 100px;
+	    padding-bottom: 120px;
+	}
+	#home-top-info {
+	    bottom: 110px;
+	}
+	.offerings-right {
+	    padding: 0 0px 0 60px;
+	}
+	.offerings-left {
+	    padding-right: 40px;
+	}
+	.compete-trait {
+	    top: 80px;
+	    right: 112px;
+	}
+	.compete-trait h3 {
+	    bottom: 0;
+	    right: -135px;
+	}
+	.serve-trait {
+	    top: -50px;
+	    left: -13px;
+	}
+	.serve-trait h3 {
+	    top: 84px;
+	    right: -95px;
+	}
+	.learn-trait {
+	    top: 100px;
+	    left: 80px;
+	}
+	.learn-trait h3 {
+	    bottom: 12px;
+	    left: 5px;
+	}
+	.grow-trait {
+	    top: -220px;
+	    right: -20px;
+	}
+	.grow-trait h3 {
+	    top: 119px;
+	    left: -30px;
+	}
+	.home-trait-img {
+	    width: 260px;
+	    height: 260px;
+	}
+	#fyre .home-trait-inner h3 {
+	    font-size: 100px;
+	}
+	.questions-image {
+	    height: 420px;
+		width: calc(100% + 160px);
+		left: -190px;
+	    position: relative;
+	    top: 50%;
+	    transform: translateY(-50%);
+	}
+	#home-questions {
+		margin: 100px 0 80px 0;
+	}
+}
+@media (max-width: 991px) {
+	#fyre .large-training-txt {
+	    font-size: 266.299px;
+	    left: -40px;
+	}
+	#home-top {
+	    margin-bottom: 0;
+	    padding-bottom: 160px;
+	}
+	.home-top-content {
+	    padding-top: 20px;
+	}
+	#home-top-info {
+	    position: relative;
+	    transform: none;
+	    left: auto;
+	    bottom: 100px;
+	    margin-top: -130px;
+	}
+	.offerings {
+	    flex-direction: column;
+	}
+	.offerings-left {
+		width: 100%;
+		border-right: none;
+		border-bottom: 1px solid #D1D4D4;
+		padding-right: 0;
+		padding-bottom: 30px;
+		margin-bottom: 30px;
+	}
+	.offerings-right {
+		width: 100%;
+		padding: 0 60px;
+	}
+	.learn-trait {
+	    left: 100px;
+	}
+	.compete-trait {
+	    right: 130px;
+	}
+	.questions-image {
+	    width: 100%;
+	    left: 50%;
+	    transform: translateX(-50%);
+	    top: auto;
+	    min-width: 100.5vw;
+	    margin-top: -120px;
+	    margin-bottom: 60px;
+	}
+	.latest-post-content {
+		margin-top: 30px;
+	}
+	#home-questions {
+		margin: 80px 0 60px 0;
+	}
+}
+
+@media (max-width: 767px) {
+	.home-top-content {
+	    padding-top: 0;
+	    margin-left: 0;
+	}
+	.offerings-right {
+	  flex-direction: column;
+	  justify-content: center !important;
+	}
+	.offerings-col-inner {
+	  display: flex;
+	  text-align: left;
+	}
+	.offerings-col-title {
+	  display: flex;
+	  justify-content: center;
+	  flex-direction: column;
+	  margin-left: 20px;
+	}
+	.offerings-col {
+	  margin-bottom: 15px;
+	}
+	.offerings-col:last-child {
+	  margin: 0;
+	}
+	.vb-player {
+	    right: 0;
+	}
+	.offerings-right img {
+	    max-width: 72px;
+	}
+	.offerings-right h3 {
+	    margin-top: 0;
+	}
+	.offerings-right {
+	    padding: 0 20px 0 50px;
+	}
+	.home-trait-img {
+	    width: 220px;
+	    height: 220px;
+	}
+	#fyre .home-trait-inner h3 {
+	    font-size: 80px;
+	}
+	.grow-trait h3 {
+	    left: -35px;
+	}
+	.learn-trait h3 {
+	    left: -15px;
+	}
+	.serve-trait h3 {
+	    right: -155px;
+	}
+	.compete-trait h3 {
+	    right: -160px;
+	}
+	#we-are-one {
+		display: none;
+	}
+	#home-latest-story .hidden-md-up {
+	    margin-top: 20px;
+	}
+	#home-latest-story .justify-content-between {
+	    justify-content: center !important;
+	    text-align: center;
+	}
+	#fyre #latest-grams {
+		padding-top: 60px;
+	}
+	#fyre .large-training-txt {
+	    transform: translateY(calc(-50% + 30px)) translateX(-50%);
+	    left: 50%;
+	}
+	#meet-coaches {
+	  padding-bottom: 15px;
+	}
+	#facility {
+	  padding-top: 15px;
+	}
+	.questions-image {
+	  height: 300px;
+	}
+	#we-are-one-mobile {
+	  padding: 80px 0;
+	}
+	#home-top-info {
+	    margin-bottom: -20px;
+	}
+}
+@media(max-width: 575px) {
+	.offerings {
+	    padding: 30px 30px;
+	}
+	#fyre .large-training-txt {
+	    transform: translateY(calc(-50% + 30px)) translateX(-50%);
+	    font-size: 153.847px;
+	    left: 50%;
+	}
+	.home-trait-img {
+	    width: 155px;
+	    height: 155px;
+	}
+	.grow-trait h3 {
+		top: 55px;
+		left: -26px;
+	}
+	.learn-trait h3 {
+		bottom: 14px;
+		left: -17px;
+	}
+	.serve-trait h3 {
+		top: 57px;
+		right: -118px;
+	}
+	.compete-trait h3 {
+		bottom: 0;
+		right: -122px;
+	}
+	.compete-trait {
+		top: 120px;
+		right: 45px;
+	}
+	.serve-trait {
+	    left: -77px;
+	    top: -76px;
+	}
+	.learn-trait {
+	    top: 50px;
+	    left: 5px;
+	}
+	.grow-trait {
+	    right: 40px;
+	    top: -160px;
+	}
+	.home-traits {
+	    margin-top: 200px;
+	}
+	#fyre .home-trait-inner h3 {
+	    font-size: 65px;
+	}
+}
+
+
+

@@ -1,0 +1,356 @@
+main {
+  overflow: hidden;
+}
+
+
+
+#page-header.alt-header {
+  overflow: visible;
+  padding: 280px 0 240px;
+  margin-bottom: 60px;
+}
+#fyre .large-training-txt {
+    font-style: normal;
+    font-weight: 100;
+    line-height: 1;
+    color: #C4C4C4;
+    mix-blend-mode: multiply;
+    position: absolute;
+    top: 50%;
+    transform: translateY(calc(-50% + 60px));
+    z-index: 1;
+    opacity: .5;
+    font-size: 434.839px;
+    left: -60px;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.vb-player {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(calc(-50% + 140px));
+    max-width: 686px;
+    z-index: 2;
+    pointer-events: none;
+}
+
+
+.info-row img {
+    box-shadow: 0px 0px 21.2313px rgba(0, 0, 0, 0.15);
+    border-radius: 21.2313px;
+}
+
+.training-top-curve {
+    position: absolute;
+    bottom: -1px;
+    z-index: 0;
+    width: 100%;
+    overflow: hidden;
+    min-width: 2600px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+
+#experience {
+    margin: 100px 0;
+    padding: 200px 0;
+}
+#experience .overlay {
+    background-color: #2F5784;
+    opacity: .9;
+}
+.experience-row {
+    margin-bottom: 60px;
+}
+.experience-row:last-child {
+    margin-bottom: 0;
+}
+.experience-row h3 {
+    margin-bottom: 0;
+}
+.what-level {
+    padding: 80px;
+    height: 100%;
+}
+@media(min-width: 1200px) {
+    .experience-row {
+        max-width: 480px;
+    }
+}
+.what-level p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.club-box {
+    height: 550px;
+    position: relative;
+    overflow: hidden;
+}
+.club-info {
+    height: 140px;
+    position: absolute;
+    background-color: #fff;
+    bottom: 0;
+    width: 100%;
+    -webkit-transition: .8s ease-in-out;
+    -o-transition: .8s ease-in-out;
+    transition: .8s ease-in-out;
+}
+.hidden-content {
+    width: 100%;
+    max-width: 360px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 0;
+    opacity: 0;
+    -webkit-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+}
+.hidden-content .btn {
+    margin-top: 20px;
+}
+.club-box:hover .hidden-content {
+    height: 100%;
+    opacity: 1;
+}
+.club-box:hover .club-info {
+    height: 101%;
+}
+.club-box:hover .content-inner {
+    top: calc(70% - 20px);
+ }
+.content-inner {
+    padding: 60px 32px 32px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+.club-icon {
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 50%;
+    padding: 1.25rem;
+}
+
+
+
+
+.why-we-train-box {
+    position: relative;
+    padding: 200px 0;
+    border-radius: 0 21.2274px 21.2274px 0;
+    padding-left: 15px;
+    box-shadow: 0px 0px 21.2274px rgba(0,0,0,.15);
+}
+
+.way-we-train-img {
+    height: 520px;
+    z-index: 3;
+}
+
+#why-we-train {
+    overflow: visible;
+}
+
+.col-xl-5.pull-xl-7.middle-content {
+    z-index: 3;
+}
+#why-we-train img {
+    position: absolute;
+    left: 0;
+    z-index: 3;
+    top: 50%;
+    transform: translateY(calc(-50% + 50px));
+    z-index: 2;
+}
+.why-we-train-box::before {
+    content: '';
+    background-color: #f0ad1c;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    left: -100%;
+    z-index: 1;
+}
+.why-we-train-box::after {
+    content: '';
+    background-color: #f0ad1c;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    left: -100%;
+    box-shadow: 0px 0px 21.2274px rgba(0,0,0,.15);
+    z-index: -1;
+}
+
+@media(max-width: 1199px) {
+    .vb-player {
+      max-width: 420px;
+    }
+    .viva.large-training-txt {
+      display: none;
+    }
+    #page-header.alt-header {
+      padding: 220px 0 180px;
+    }
+    #page-header.alt-header .header-content {
+        max-width: 420px;
+    }
+    .club-box {
+        height: 500px;
+    }
+    #why-we-train {
+      margin-top: 300px;
+    }
+    .col-xl-5.pull-xl-7.middle-content {
+      max-width: 500px;
+      margin-left: 120px;
+      margin-top: 80px;
+    }
+    .way-we-train-img {
+        height: 490px;
+        position: absolute;
+        top: -100%;
+        width: 660px;
+        transform: translateY(-100%);
+        right: 160px;
+    }
+    .what-level {
+        margin-top: 60px;
+    }
+    #experience .sec-header h2 {
+        text-align: center;
+    }
+}
+
+@media(max-width: 991px) {
+    #why-we-train-mobile .fyrelazy {
+        margin-bottom: -50%;
+        margin-top: 20px;
+        box-shadow: 0px 0px 21.2313px rgba(0, 0, 0, 0.15);
+        border-radius: 21.2313px;
+    }
+    #why-we-train-mobile {
+        margin-bottom: 270px;
+        overflow: visible;
+    }
+    #page-header.alt-header {
+        padding: 180px 0 160px;
+    }
+    .vb-player {
+        max-width: 360px;
+        right: -90px;
+    }
+    .club-box {
+        margin-bottom: 30px;
+        padding-top: 240px;
+        height: auto;
+    }
+    .club-info {
+        height: 100%;
+        position: relative;
+    }
+    .content-inner {
+        position: relative;
+        transform: none;
+        left: auto;
+        top: auto;
+    }
+    .hidden-content {
+        opacity: 1;
+        height: auto;
+    }
+    .mobile-bg-club {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 240px;
+    }
+    #experience {
+        margin: 0 0 100px;
+        padding: 100px 0;
+    }
+
+}
+@media(max-width: 767px) {
+    .way-we-train-img {
+        transform: translateY(calc(100% + 200px)) translateX(-50%);
+        max-height: 300px;
+    }
+    #below-page-header {
+        overflow: visible;
+    }
+    .vb-player {
+        position: relative;
+        top: auto;
+        right: 0;
+        transform: translateX(-50%);
+        max-width: 360px;
+        z-index: 2;
+        pointer-events: none;
+        right: -50%;
+        margin-top: -250px;
+        margin-bottom: 20px;
+        width: 100% !important;
+    }
+    #page-header.alt-header {
+        padding: 120px 0 140px;
+    }
+    #experience {
+        margin: 0 0 80px;
+        padding: 80px 0;
+    }
+    .what-level {
+        padding: 40px;
+    }
+    .what-level p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    #why-we-train-mobile {
+        margin-bottom: 180px;
+    }
+    #below-page-header {
+        padding-bottom: 0;
+    }
+}
+@media(max-width: 767px) {
+    #why-we-train-mobile {
+        margin-bottom: 136px;
+    }
+}
+
+
+
+
